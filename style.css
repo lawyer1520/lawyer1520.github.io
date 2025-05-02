@@ -335,4 +335,65 @@ footer {
 .footer-content a:hover {
   text-decoration: underline;
 }
+
+@media  screen and (max-width: 600px)
+{
+  
+.main {
+  width: 310%;
+  background: linear-gradient(to top, rgba(10, 6, 6, 0.5)50%,rgba(15, 9, 9, 0.5)50%), url(image99.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 275vh;
+} 
+ul li{
+  list-style: none;
+  margin-left: 6px;
+  margin-top: 45px;
+  font-size: 12px;
+  position: relative;
+  left: -200px;
+ 
+ }
+  
+ .content h3{
+  font-family: 'Times New Roman';
+  font-size: 11px;
+  padding-left: 20px;
+  margin-top: 15%;
+  letter-spacing: 2px;
+}
+
+.content .cn{
+  width: 120px;
+  height: 35px;
+  background: #ff7200;
+  border: none;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+  
+footer {
+  background-color: #181717;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  width: 30%;
+  bottom: 20%;
+  top: 330px;
+  margin-right: 75px;
+} 
+   
+      
+      
+      
+    
+     
+}
+
+
  
